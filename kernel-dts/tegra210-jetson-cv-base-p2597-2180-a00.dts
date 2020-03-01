@@ -61,9 +61,6 @@
 	chosen {
 		board-has-eeprom;
 		stdout-path = &uarta;
-		verified-boot {
-			poweroff-on-red-state;
-		};
 	};
 
 	pinmux@700008d4 {
